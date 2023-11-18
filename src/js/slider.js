@@ -31,7 +31,7 @@ setaVoltar.addEventListener("click", function () {
 
 function mostrarImagens() {
     imagens[imagemAtual].classList.add("mostrar");
-}
+} 
 
 function esconderImagemAberta() {
     const imagemAberta = document.querySelector(".mostrar");
